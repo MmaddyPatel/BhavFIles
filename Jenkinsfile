@@ -1,9 +1,9 @@
 pipeline {
-   // agent any
+    agent any
 
-   // environment {
-   //     DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
-  //  }
+    environment {
+        DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
+    }
 
     stages {
         stage('Checkout') {

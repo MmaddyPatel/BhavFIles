@@ -16,7 +16,7 @@ Imports System.Text
 Module Module1
 
 #Region "DECLERATIONS"
-    Dim Dt_Fno_Mapping As DataTable
+    Dim Dt_Fno_Mapping As DataTabless
     Dim MyBook As Excels.Workbook
     Dim MyApp As Excels.Application
     Dim MySheet As Excels.Worksheet

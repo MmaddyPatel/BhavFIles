@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+     /*   stage('Build') {
             steps {
                 script {
                     // Restoring dependencies
@@ -23,7 +23,7 @@ pipeline {
                     bat "dotnet build --configuration Release"
                 }
             }
-        }
+        }*/
 
         stage('Test') {
             steps {
